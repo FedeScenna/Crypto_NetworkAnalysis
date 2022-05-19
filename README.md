@@ -6,5 +6,6 @@ El objetivo de este trabajo es analizar utilizando grafos las correlaciones entr
 - [Reporte](https://github.com/FedeScenna/Crypto_NetworkAnalysis/blob/main/Scenna%20Federico.pdf)
 
 ## Datos
--[Csv](https://github.com/FedeScenna/Crypto_NetworkAnalysis/blob/main/all_coins_data.csv)
--[Script de descarga](https://github.com/FedeScenna/Crypto_NetworkAnalysis/blob/main/01_data_download.R)
+
+- [Csv](https://github.com/FedeScenna/Crypto_NetworkAnalysis/blob/main/all_coins_data.csv)
+- [Script de descarga](https://github.com/FedeScenna/Crypto_NetworkAnalysis/blob/main/01_data_download.R)
