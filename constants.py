@@ -1,0 +1,1 @@
+stablecoins = ["BUSD", "DAI","TUSD", "USDC","USDT"]
