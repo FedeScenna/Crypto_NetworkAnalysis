@@ -34,7 +34,7 @@ def plot_acfs(df,coins, num_rows, num_cols):
     for i, c in enumerate(coins):
         # Plot autocorrelation for each coin on a separate subplot
         ax = axes[i]
-        plot_acf(df[df["coin"] == c]["close"], ax=ax)
+        plot_acf(df[df["coin"] == c]["close"], ax=ax,fft=True, auto_ylims=True)
         ax.set_title("Autocorrelation - " + c)
     # Remove empty subplots
     for i in range(len(coins), num_rows * num_cols):
@@ -43,6 +43,8 @@ def plot_acfs(df,coins, num_rows, num_cols):
     # Adjust layout
     plt.tight_layout()
     plt.show()
+
+
 def plot_pacfs(df,coins, num_rows, num_cols):
     fig, axes = plt.subplots(nrows=num_rows, ncols=num_cols, figsize=(15,18))
     # Flatten the axes array for easier iteration
@@ -51,7 +53,7 @@ def plot_pacfs(df,coins, num_rows, num_cols):
     for i, c in enumerate(coins):
         # Plot autocorrelation for each coin on a separate subplot
         ax = axes[i]
-        plot_pacf(df[df["coin"] == c]["close"], ax=ax)
+        plot_pacf(df[df["coin"] == c]["close"], ax=ax, auto_ylims=True)
         ax.set_title("Partial Autocorrelation - " + c)
     # Remove empty subplots
     for i in range(len(coins), num_rows * num_cols):
