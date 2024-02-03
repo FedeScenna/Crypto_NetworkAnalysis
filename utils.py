@@ -13,18 +13,19 @@ def chart_ts(df, row_nr, coins_list):
     plt.title(coins_list[row_nr])
 
 
-def create_graph(corr_df, stablecoins, volatile_coins): 
-    G = nx.Graph()
-    coins = list(corr_df["coinfrom"]) + list(corr_df["cointo"])
-    coins = set(coins)
-    for c in coins:
+def create_graph(corr_df, stablecoins): 
+   G = nx.Graph()
+   coins = list(corr_df["coinfrom"]) + list(corr_df["cointo"])
+   coins = set(coins)
+   for c in coins:
         if c in stablecoins: 
             G.add_node(c, type = "stablecoin")
         else: 
             G.add_node(c, type = "volatile")
-    relations = list(zip(corr_df["coinfrom"], corr_df["cointo"], corr_df["corr"]))
-    [G.add_edge(l[0], l[1], weight = l[2]) for l in relations]
-    return G
+    # Add Edges
+   relations = list(zip(corr_df["coinfrom"], corr_df["cointo"],corr_df["corr"]))
+   G.add_weighted_edges_from((l[0], l[1], l[2]) for l in relations)
+   return G
 
 def plot_acfs(df,coins, num_rows, num_cols):
     fig, axes = plt.subplots(nrows=num_rows, ncols=num_cols, figsize=(15,18))
