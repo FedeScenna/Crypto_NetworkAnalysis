@@ -3,143 +3,152 @@
   <key id="d1" for="edge" attr.name="weight" attr.type="double" />
   <key id="d0" for="node" attr.name="type" attr.type="string" />
   <graph edgedefault="undirected">
+    <node id="BCH">
+      <data key="d0">volatile</data>
+    </node>
     <node id="OMG">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="ETC">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="XTZ">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="ADA">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="BSV">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="YFI">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="OKB">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="HT">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="DASH">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="UMA">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="XEM">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="LINK">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="MIOTA">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="XRP">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="XLM">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="ETH">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="LTC">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="HEDG">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="ATOM">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="VET">
       <data key="d0">volatile</data>
     </node>
     <node id="SNX">
       <data key="d0">volatile</data>
     </node>
-    <node id="NEO">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="THETA">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="USDT">
+    <node id="TUSD">
       <data key="d0">stablecoin</data>
     </node>
-    <node id="TRX">
+    <node id="ETC">
       <data key="d0">volatile</data>
     </node>
     <node id="WBTC">
       <data key="d0">volatile</data>
     </node>
-    <node id="BCH">
+    <node id="VET">
       <data key="d0">volatile</data>
     </node>
-    <node id="HEX">
+    <node id="NEO">
       <data key="d0">volatile</data>
     </node>
-    <node id="MKR">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="XMR">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="USDC">
-      <data key="d0">stablecoin</data>
-    </node>
-    <node id="FTT">
+    <node id="HEDG">
       <data key="d0">volatile</data>
     </node>
     <node id="BTC">
       <data key="d0">volatile</data>
     </node>
-    <node id="CRO">
+    <node id="XEM">
       <data key="d0">volatile</data>
     </node>
-    <node id="BUSD">
-      <data key="d0">stablecoin</data>
-    </node>
-    <node id="TUSD">
-      <data key="d0">stablecoin</data>
-    </node>
-    <node id="BNB">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="ALGO">
-      <data key="d0">volatile</data>
-    </node>
-    <node id="DOT">
+    <node id="DASH">
       <data key="d0">volatile</data>
     </node>
     <node id="DAI">
       <data key="d0">stablecoin</data>
     </node>
-    <node id="ONT">
+    <node id="XMR">
       <data key="d0">volatile</data>
     </node>
-    <node id="ZEC">
+    <node id="CRO">
       <data key="d0">volatile</data>
     </node>
-    <node id="CTC">
+    <node id="YFI">
       <data key="d0">volatile</data>
     </node>
-    <node id="EOS">
+    <node id="ADA">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="OKB">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="FTT">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="USDT">
+      <data key="d0">stablecoin</data>
+    </node>
+    <node id="ATOM">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="BUSD">
+      <data key="d0">stablecoin</data>
+    </node>
+    <node id="ETH">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="USDC">
+      <data key="d0">stablecoin</data>
+    </node>
+    <node id="BNB">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="HT">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="THETA">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="MKR">
       <data key="d0">volatile</data>
     </node>
     <node id="LEO">
       <data key="d0">volatile</data>
     </node>
+    <node id="CTC">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="ALGO">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="BSV">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="MIOTA">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="ONT">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="XLM">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="LTC">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="LINK">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="XRP">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="ZEC">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="TRX">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="EOS">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="HEX">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="XTZ">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="UMA">
+      <data key="d0">volatile</data>
+    </node>
+    <node id="DOT">
+      <data key="d0">volatile</data>
+    </node>
+    <edge source="BCH" target="HEDG">
+      <data key="d1">0.225956057460201</data>
+    </edge>
     <edge source="OMG" target="XEM">
       <data key="d1">0.2383345807975812</data>
+    </edge>
+    <edge source="SNX" target="OKB">
+      <data key="d1">0.23267927591796508</data>
+    </edge>
+    <edge source="TUSD" target="BUSD">
+      <data key="d1">0.22318134379834037</data>
     </edge>
     <edge source="ETC" target="OKB">
       <data key="d1">0.21158714812852275</data>
@@ -147,86 +156,23 @@
     <edge source="ETC" target="DOT">
       <data key="d1">0.23335886402062414</data>
     </edge>
-    <edge source="XTZ" target="HEDG">
-      <data key="d1">0.2418321103605265</data>
-    </edge>
-    <edge source="ADA" target="HEDG">
-      <data key="d1">0.20096763679871424</data>
-    </edge>
-    <edge source="BSV" target="XEM">
-      <data key="d1">0.23122603148024157</data>
-    </edge>
-    <edge source="YFI" target="OKB">
-      <data key="d1">0.21515761013516457</data>
-    </edge>
-    <edge source="OKB" target="XLM">
-      <data key="d1">0.20197757138158878</data>
-    </edge>
-    <edge source="OKB" target="ATOM">
-      <data key="d1">0.20535721313079192</data>
-    </edge>
-    <edge source="OKB" target="VET">
-      <data key="d1">0.21851447736715332</data>
-    </edge>
-    <edge source="OKB" target="LEO">
-      <data key="d1">0.22878246798551632</data>
-    </edge>
-    <edge source="OKB" target="SNX">
-      <data key="d1">0.23267927591796508</data>
-    </edge>
-    <edge source="OKB" target="XMR">
-      <data key="d1">0.2632939271196452</data>
-    </edge>
-    <edge source="OKB" target="ETH">
-      <data key="d1">0.26749813311256615</data>
-    </edge>
-    <edge source="HT" target="LEO">
-      <data key="d1">0.24559364110400883</data>
-    </edge>
-    <edge source="DASH" target="XEM">
-      <data key="d1">0.2256609497723952</data>
-    </edge>
-    <edge source="UMA" target="THETA">
-      <data key="d1">0.21382741411706485</data>
-    </edge>
-    <edge source="UMA" target="XEM">
-      <data key="d1">0.23369150319714518</data>
-    </edge>
-    <edge source="XEM" target="MKR">
-      <data key="d1">0.2002847656793667</data>
-    </edge>
-    <edge source="XEM" target="WBTC">
+    <edge source="WBTC" target="XEM">
       <data key="d1">0.23021975720677998</data>
     </edge>
-    <edge source="XEM" target="BTC">
-      <data key="d1">0.2353597419535495</data>
+    <edge source="VET" target="OKB">
+      <data key="d1">0.21851447736715332</data>
     </edge>
-    <edge source="XEM" target="ZEC">
-      <data key="d1">0.26412686377171174</data>
-    </edge>
-    <edge source="XEM" target="EOS">
-      <data key="d1">0.27200683404870835</data>
-    </edge>
-    <edge source="XEM" target="NEO">
+    <edge source="NEO" target="XEM">
       <data key="d1">0.29134620265471306</data>
     </edge>
-    <edge source="LINK" target="USDT">
-      <data key="d1">0.21487728796262676</data>
-    </edge>
-    <edge source="LINK" target="HEDG">
-      <data key="d1">0.2909947017735204</data>
-    </edge>
-    <edge source="MIOTA" target="HEDG">
-      <data key="d1">0.21142169573266598</data>
-    </edge>
-    <edge source="XRP" target="DOT">
-      <data key="d1">0.23178657507282482</data>
-    </edge>
-    <edge source="LTC" target="HEDG">
-      <data key="d1">0.24177534167892392</data>
+    <edge source="HEDG" target="ADA">
+      <data key="d1">0.20096763679871424</data>
     </edge>
     <edge source="HEDG" target="MKR">
       <data key="d1">0.2026372314785183</data>
+    </edge>
+    <edge source="HEDG" target="MIOTA">
+      <data key="d1">0.21142169573266598</data>
     </edge>
     <edge source="HEDG" target="ATOM">
       <data key="d1">0.2139968938131592</data>
@@ -237,23 +183,65 @@
     <edge source="HEDG" target="CRO">
       <data key="d1">0.22262858119854764</data>
     </edge>
-    <edge source="HEDG" target="BCH">
-      <data key="d1">0.225956057460201</data>
-    </edge>
     <edge source="HEDG" target="ONT">
       <data key="d1">0.2314751119857516</data>
     </edge>
     <edge source="HEDG" target="ALGO">
       <data key="d1">0.2413937124261017</data>
     </edge>
-    <edge source="THETA" target="TRX">
-      <data key="d1">0.22571779186360902</data>
+    <edge source="HEDG" target="LTC">
+      <data key="d1">0.24177534167892392</data>
     </edge>
-    <edge source="THETA" target="BNB">
-      <data key="d1">0.22837333646925553</data>
+    <edge source="HEDG" target="XTZ">
+      <data key="d1">0.2418321103605265</data>
     </edge>
-    <edge source="USDT" target="DAI">
+    <edge source="HEDG" target="LINK">
+      <data key="d1">0.2909947017735204</data>
+    </edge>
+    <edge source="BTC" target="XEM">
+      <data key="d1">0.2353597419535495</data>
+    </edge>
+    <edge source="XEM" target="MKR">
+      <data key="d1">0.2002847656793667</data>
+    </edge>
+    <edge source="XEM" target="DASH">
+      <data key="d1">0.2256609497723952</data>
+    </edge>
+    <edge source="XEM" target="BSV">
+      <data key="d1">0.23122603148024157</data>
+    </edge>
+    <edge source="XEM" target="UMA">
+      <data key="d1">0.23369150319714518</data>
+    </edge>
+    <edge source="XEM" target="ZEC">
+      <data key="d1">0.26412686377171174</data>
+    </edge>
+    <edge source="XEM" target="EOS">
+      <data key="d1">0.27200683404870835</data>
+    </edge>
+    <edge source="DAI" target="USDT">
       <data key="d1">0.20432643806803036</data>
+    </edge>
+    <edge source="XMR" target="OKB">
+      <data key="d1">0.2632939271196452</data>
+    </edge>
+    <edge source="YFI" target="OKB">
+      <data key="d1">0.21515761013516457</data>
+    </edge>
+    <edge source="OKB" target="XLM">
+      <data key="d1">0.20197757138158878</data>
+    </edge>
+    <edge source="OKB" target="ATOM">
+      <data key="d1">0.20535721313079192</data>
+    </edge>
+    <edge source="OKB" target="LEO">
+      <data key="d1">0.22878246798551632</data>
+    </edge>
+    <edge source="OKB" target="ETH">
+      <data key="d1">0.26749813311256615</data>
+    </edge>
+    <edge source="USDT" target="LINK">
+      <data key="d1">0.21487728796262676</data>
     </edge>
     <edge source="USDT" target="BUSD">
       <data key="d1">0.23849505829468706</data>
@@ -261,8 +249,20 @@
     <edge source="USDT" target="USDC">
       <data key="d1">0.2811248709054428</data>
     </edge>
-    <edge source="BUSD" target="TUSD">
-      <data key="d1">0.22318134379834037</data>
+    <edge source="BNB" target="THETA">
+      <data key="d1">0.22837333646925553</data>
+    </edge>
+    <edge source="HT" target="LEO">
+      <data key="d1">0.24559364110400883</data>
+    </edge>
+    <edge source="THETA" target="UMA">
+      <data key="d1">0.21382741411706485</data>
+    </edge>
+    <edge source="THETA" target="TRX">
+      <data key="d1">0.22571779186360902</data>
+    </edge>
+    <edge source="XRP" target="DOT">
+      <data key="d1">0.23178657507282482</data>
     </edge>
   </graph>
 </graphml>
