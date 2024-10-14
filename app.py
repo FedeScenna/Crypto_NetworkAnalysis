@@ -1,6 +1,5 @@
 
 import streamlit as st
-from streamlit_agraph import agraph, Node, Edge, Config
 import pandas as pd
 from constants import stablecoins
 import plotly.express as px
